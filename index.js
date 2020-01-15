@@ -2,10 +2,10 @@ const express = require('express');
 
 const app = express();
 
-//Tipod fr parametros
+//Tipos de parametros
 
 //Query Params: req.query(Filtros, ordenação, paginação...)
-//Route Params:
+//Route Params: request.params (Identificar um recurso na alteração ou remoção)
 //Body:
 
 app.get('/', (request, response) => {
